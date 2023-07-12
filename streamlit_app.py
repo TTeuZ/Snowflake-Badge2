@@ -1,5 +1,8 @@
 
 import streamlit
+import pandas
+
+fruit_list = pasndas.read.csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 
 streamlit.title('My Parents New Healthy Diner')
 
@@ -10,3 +13,5 @@ streamlit.text('🐔 Hard-Boiled Free-Range Egg')
 streamlit.text('🥑🍞 Avocado Toast')
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
+
+streamlit.datagframe(fruit_list)
