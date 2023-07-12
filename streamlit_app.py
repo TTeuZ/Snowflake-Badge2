@@ -2,7 +2,7 @@
 import streamlit
 import pandas
 
-fruit_list = pasndas.read.csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+fruit_list = pandas.read.csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 
 streamlit.title('My Parents New Healthy Diner')
 
